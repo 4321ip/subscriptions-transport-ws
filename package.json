@@ -16,7 +16,7 @@
     "ws": "^5.2.0"
   },
   "scripts": {
-    "install": "npm install & npm run compile",
+    "postinstall": "npm run compile",
     "clean": "rimraf browser dist coverage",
     "compile": "tsc",
     "pretest": "npm run compile",
